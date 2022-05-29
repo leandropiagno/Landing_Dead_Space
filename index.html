@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+    <title>Landing Dead Space</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu_container">
+            <nav class="menu">
+                <a href="logo"><img class="logo" src="./assets/img/dead_space.png" alt="logo"></a>
+                <ul>
+                    <li><a href="#home">Inicío</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <span class="carregando"></span>
+                    <span class="carregando1"></span>
+                    <li><a href="#hero">Herói</a></li>
+                    <li><a href="#social">Social</a></li>
+                </ul>
+                <div class="search-container">
+                    <div class="search-box">
+                        <input class="search-txt" type="text" name="" placeholder="Faça a sua busca">
+                        <span class="search-btn">
+                            <a href="#"><i class="fa fa-search"></i></a>
+
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <section id="home" class="main_home">
+            <div class="call">
+                <h2>Bem vindo ao espaço</h2>
+                <p>No espaço, ninguém pode ouvir o seu grito</p>
+                <a href="https://www.youtube.com/watch?v=l5WeBNfX-og" target='_blank'>
+                    <button id="btn_trailer" class="btn_trailer">Veja o Trailer</button>
+                </a>
+            </div>
+            <div class="banner"></div>
+        </section>
+
+        <section id="about" class="main_about">
+            <div>
+                <h2>History</h2>
+                <p>Em 2507, quando a Terra foi devastada pela exploração
+                    humana. A busca incessante por novos recursos energéticos
+                    fez com que o planeta se tornasse cada vez mais inabitável.
+                    A população diminuiu drasticamente e agora aposta em
+                    viagens espaciais para conseguir outros meios de garantir
+                    a sobrevivência. <br>Os problemas começam a acontecer
+                    exatamente na 35º missão, destinada ao planeta Aegis VII.
+                    <br>Um chamado de emergência é enviado para a CEC,
+                    que imediatamente envia USG Kellion para averiguar o que
+                    ocorreu com a nave e a colônia instalada no sistema.
+                    A bordo do resgate está o protagonista da série, o engenheiro
+                    Isaac Clarke, que além de cumprir seu dever profissional,
+                    vai de encontro à namorada Nicole Brennan, médica da Ishimura.</p>
+            </div>
+            <img class="about_img" src="/assets/img/nav-2.jpg" alt="Nave Ishimura">
+        </section>
+
+        <section class="paralax"></section>
+
+        <section id="hero" class="main_hero">
+            <div class="cards">
+                <div class="card-single">
+                    <div class="card-body">
+                        <h2>Isaac Clarke</h2>
+                        <div class="text">
+                            <p> Isaac Clarke é um engenheiro em
+                                uma missão para consertar uma vasta
+                                nave estelar.
+                            </p>
+                        </div>
+                        <button id="btn-card" class="btn-card">Saiba mais</button>
+                    </div>
+                    <img src="/assets/img/issack-2.png" alt="Isaac Clarke">
+                </div>
+
+                <div class="cards">
+                    <div class="card-single">
+                        <div class="card-body">
+                            <h2>Necromorfos</h2>
+                            <div class="text">
+                                <p>Os Necromorfos são os corpos
+                                    reanimados dos mortos e modificados.
+                                </p>
+                            </div>
+                            <button id="btn-card-1" class="btn-card-1">Saiba mais</button>
+                        </div>
+                        <img src="/assets/img/necromo-2.png" alt="Isaac Clarke">
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="paralax"></section>
+
+        <section id="social" class="main_social">
+            <div class="social_container">
+                <i class="fa fa-facebook fa-3x"></i>
+                <i class="fa fa-twitter fa-3x"></i>
+                <i class="fa fa-instagram fa-3x"></i>
+                <i class="fa fa-youtube fa-3x"></i>
+                <div class="social_news-letter">
+                    <h3>Newsletter</h3>
+                    <input id="input-email" class="input-email" type="email" name="email"
+                        placeholder="Digite seu e-mail...">
+                    <input id="btn-submit" class="btn-submit" type="submit">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Layout criado por Leandro Piagno @ 2022</p>
+    </footer>
+
+    <!--MODAL-->
+
+    <div id="modal_descricao" class="modal_container">
+        <div class="modal">
+            <button class="fechar">x</button>
+            <h2>Isaac Clarke</h2>
+            <div class="modal_text">
+                <p>O personagem principal e silencioso protagonista
+                    do jogo. Isaac é um especialista de sistemas de
+                    naves e engenheiro a bordo do ônibus espacial
+                    Kellion para investigar e reparar o USG Ishimura.
+                    Clarke também está tentando achar sua namorada,
+                    Nicole, uma médica especialista designada na nave,
+                    cujo destino é desconhecido no começo do jogo. Durante
+                    todo o jogo, Isaac se depara com uma conspiração
+                    envolvendo a Igreja da Unitologia e o Governo.
+                    É também implícito que a mãe de Clarke é um membro
+                    do alto escalão da Igreja de Unitologia. Isaac é o
+                    único personagem que não fala em Dead Space, apenas
+                    produzindo sons inarticulados, como grunhidos, gemidos
+                    e gritos.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="modal_descricaoNecro" class="modal_containerNecro">
+        <div class="modalNecro">
+            <button class="fecharNecro">x</button>
+            <h2>Necromorfos</h2>
+            <div class="modal_textNecro">
+                <p>São cadáveres mutantes, remodelados em novas
+                    formas horríveis por uma infecção extraterrestre
+                    recombinante derivada de um código genético gravado
+                    na pele dos Marcadores. <br> As criaturas resultantes
+                    são extremamente agressivas e atacarão qualquer
+                    organismo não infectado à vista. <br>
+                    O único propósito de todos os Necromorphs
+                    é adquirir mais corpos para converter e
+                    espalhar a infecção. Eles são considerados
+                    por alguns como os arautos da ascensão da
+                    humanidade, mas em um nível mais prático,
+                    eles são o resultado extremamente perigoso
+                    da exposição aos dispositivos enigmáticos
+                    conhecidos como Marcadores. <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
